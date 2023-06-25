@@ -1,10 +1,12 @@
 import turtle
 t=turtle.Turtle()
-t.forward(200)
-t.right(90)
-t.forward(100)
-t.right(90)
-t.forward(200)
-t.right(90)
-t.forward(100)
+m=100
+n=150
+t.forward(m)
+t.left(90)
+t.forward(n)
+t.left(90)
+t.forward(m)
+t.left(90)
+t.forward(n)
 turtle.done()
